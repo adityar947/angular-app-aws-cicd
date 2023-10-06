@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # navigate to app folder
-cd /app
+cd /opt
 pwd
 # install node, npm and Angular@CLI
 # apt install curl
