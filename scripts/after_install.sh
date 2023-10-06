@@ -4,4 +4,4 @@
 cd /app
 
 # Copy artifact to destination
-cp -r build/* /var/www/html
+cp -r dist/Giphy-Replica/** /var/www/html
