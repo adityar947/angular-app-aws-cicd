@@ -4,7 +4,7 @@ os: linux
 
 files:
   - source: /
-  - destinaion: /opt
+  - destination: /opt
   - overwrite: true
 
 permissions:
