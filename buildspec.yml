@@ -10,11 +10,10 @@ phases:
   build:
     commands:
       - ng build
+      - mkdir artifacts
+      - cp -r dist/ scripts/ package.json artifacts/
 
 artifacts:
   files:
-    - public/**/*
-    - src/**/*
-    - package.json
+    - artifacts/**/*
     - appspec.yml
-    - scripts/**/*
