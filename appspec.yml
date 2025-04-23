@@ -8,7 +8,7 @@ files:
     overwrite: true
 
 permissions:
-  - object: /
+  - object: /opt
     pattern: "**"
     owner: ubuntu
     group: ubuntu
