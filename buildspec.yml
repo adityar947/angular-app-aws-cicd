@@ -10,8 +10,8 @@ phases:
   build:
     commands:
       - ng build
-      - mkdir -p artifacts
-      - cp -r dist/ scripts/ package.json artifacts/
+      - mkdir -p ${CODEBUILD_SRC_DIR}/artifacts
+      - cp -r dist/ scripts/ package.json ${CODEBUILD_SRC_DIR}/artifacts/
 
 artifacts:
   files:
