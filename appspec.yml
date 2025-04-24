@@ -3,7 +3,7 @@ version: 0.0
 os: linux
 
 files:
-  - source: /dist
+  - source: /artifacts/dist
     destination: /opt
     overwrite: true
 
