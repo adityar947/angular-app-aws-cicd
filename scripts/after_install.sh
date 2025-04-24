@@ -4,5 +4,5 @@
 cd /opt
 
 # Copy artifact to destination
-cp -r dist/Giphy-Replica/** /var/www/html
+cp -r Giphy-Replica/** /var/www/html
 sudo apt install nginx -y
